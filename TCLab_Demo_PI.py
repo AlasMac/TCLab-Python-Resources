@@ -154,10 +154,10 @@ if __name__ == "__main__":
     # 1. Input Duration
     while True:
         try:
-            duration_input = input("Enter Simulation Time (s): ")
+            duration_input = input("Enter Experiment Time (s): ")
             duration_val = float(duration_input)
             if duration_val <= 0:
-                print("Simulation time must be positive.")
+                print("Experiment time must be positive.")
                 continue
             break
         except ValueError:
